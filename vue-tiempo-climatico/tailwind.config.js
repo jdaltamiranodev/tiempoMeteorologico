@@ -3,9 +3,9 @@ module.exports = {
   content: ["./index.html",".src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
     extend: {
-      color:{
-        "primary-light":"#00668a",
-        "secundary-dark":"#004e71",
+      colors:{
+        "primary-light":"#00668A",
+        "secundary-dark":"#004E71",
       },
     },
     fontFamily:{roboto:["Roboto, sans-serif"],
