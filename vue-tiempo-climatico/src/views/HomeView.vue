@@ -2,7 +2,7 @@
   <div class="home">
     <img alt="Vue logo" src="../assets/windylogo.svg">
     
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <HelloWorld msg="weather App"/>
   </div>
 </template>
 
@@ -10,10 +10,11 @@
 // @ is an alias to /src
 import HelloWorld from '@/components/HelloWorld.vue'
 
+
 export default {
   name: 'HomeView',
   components: {
-    HelloWorld
+    HelloWorld,
   }
 }
 </script>
