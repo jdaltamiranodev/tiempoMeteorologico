@@ -8,12 +8,12 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        "weather-primary": "#00668A",
-        "weather-secondary": "#004E71",
+        "primary-light":"#00668A",
+        "secundary-dark":"#004E71",
       },
     },
     fontFamily:{roboto:["Roboto, sans-serif"],
-   }, 
+   },  
    container:{
     padding:"2rem",
     center: true,
@@ -23,6 +23,7 @@ module.exports = {
     md:"768px",
    },
   },
-  plugins: [],
+  plugins: [
+    require('flowbite/plugin')
+  ],
 }
-
