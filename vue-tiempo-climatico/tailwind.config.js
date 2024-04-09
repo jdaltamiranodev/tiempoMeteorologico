@@ -1,15 +1,19 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./index.html",".src/**/*.{vue,js,ts,jsx,tsx}"],
+  content: [
+    "./index.html",
+    "./node_modules/flowbite/**/*.js",
+    "./src/**/*.{vue,js,ts,jsx,tsx}",
+  ],
   theme: {
     extend: {
       colors:{
-        "primary-light":"#00668A",
-        "secundary-dark":"#004E71",
+        "weather-primary": "#00668A",
+        "weather-secondary": "#004E71",
       },
     },
     fontFamily:{roboto:["Roboto, sans-serif"],
-   },  
+   }, 
    container:{
     padding:"2rem",
     center: true,

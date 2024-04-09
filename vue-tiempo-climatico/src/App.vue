@@ -1,6 +1,7 @@
 <template>
-  <div class="flex flex-col min-h-screen font-roboto bg-primary-light">
+  <div class="flex flex-col min-h-screen font-roboto bg to-weather-primary">
     <SiteNavigation/>
+    <HomeView/>
     <RouterView/>
   </div>
 </template>
@@ -9,6 +10,7 @@
 
 import { RouterView } from "vue-router";
 import SiteNavigation from "./components/SiteNavigation.vue";
+import HomeView from "./views/HomeView.vue"
 
 </script>
 
